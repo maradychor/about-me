@@ -57,38 +57,39 @@ document.write('<p>Hello! '+ question6 + '</p>');
 
 //end part 1
 
-let userNumberGuess = prompt('Guess how old I am');
-let correctNumber = 27;
+// let userNumberGuess = prompt('Guess how old I am');
+// let correctNumber = 27;
 
-if (userNumberGuess > correctNumber) {
-    alert('Not that old');
-  } else if (userNumberGuess < correctNumber) {
-    alert('Not that young');
-  } else {
-    alert('You are correct');
-  }
-//need to finish 
+// if (userNumberGuess > correctNumber) {
+//     alert('Not that old');
+//   } else if (userNumberGuess < correctNumber) {
+//     alert('Not that young');
+//   } else {
+//     alert('You are correct');
+//   }
+// //need to finish 
 
 
-//this is part 3
-const possibleAnswers = ["pho", "curry", "hot pot", "korean bbq"];
-const maxAttempts = 6;
-let attempts = 0;
+// //this is part 3
+// const possibleAnswers = ["pho", "curry", "hot pot", "korean bbq"];
+// const maxAttempts = 6;
+// let attempts = 0;
 
-while (attempts < maxAttempts) {
-  const userGuess = prompt("guess my favorite asian food");
+// while (attempts < maxAttempts) {
+//   const userGuess = prompt("guess my favorite asian food");
 
-  if (possibleAnswers.includes(userGuess)) {
-    alert("That is one of my favorites!!!");
-    break;
-  } else {
-    alert('Im not sure about that!');
-  }
+//   if (possibleAnswers.includes(userGuess)) {
+//     alert("That is one of my favorites!!!");
+//     break;
+//   } else {
+//     alert('Im not sure about that!');
+//   }
 
-  attempts++;
-}
-if (attempts === maxAttempts) {
-  alert('sorry! youre wrong there are no more tries'); 
-}
+//   attempts++;
+// }
+// if (attempts === maxAttempts) {
+//   alert('sorry! youre wrong there are no more tries'); 
+// }
 
-//part 4
+// //part 4
+
